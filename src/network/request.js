@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export function request(config) {
     const test = axios.create({
-        baseURL: "http://8.140.130.54:3000/json",
+        baseURL: "http://121.5.234.74:3000/json",
         // baseURL: "/api",
         timeout: 5000
     });
